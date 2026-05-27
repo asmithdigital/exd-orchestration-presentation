@@ -147,7 +147,7 @@ export default function App() {
             <Arrow color={C.figma} />
             <NL nodeProps={{ label: "Figma Product", sub: "Read + write product screens, pages, flows", color: C.figma, bg: C.figmaBg, border: C.figmaBorder, icon: "◆", status: "live" }} linkLabel="Demo Product File" linkUrl="https://www.figma.com/design/cXocOMh9TE9ILgfaayfihI/Demo-Product" />
             <Arrow color={C.github} />
-            <NL nodeProps={{ label: "GitHub", sub: "Create repos, push code, deploy to GitHub Pages", color: C.github, bg: C.githubBg, border: C.githubBorder, icon: "⬡", status: "live" }} linkLabel="GitHub Profile" linkUrl="https://github.com/asmithdigital" />
+            <NL nodeProps={{ label: "GitHub", sub: "Create repos, push code, deploy to GitHub Pages", color: C.github, bg: C.githubBg, border: C.githubBorder, icon: "⬡", status: "live" }} linkLabel="Product Repo" linkUrl="https://github.com/asmithdigital/journey-management-site" />
             <Arrow color={C.slack} />
             <NL nodeProps={{ label: "Slack", sub: "Push updates and notifications to Slack channels", color: C.slack, bg: C.slackBg, border: C.slackBorder, icon: "◈", status: "live" }} linkLabel="Test Slack Channel" linkUrl="https://uxaiexperiment.slack.com/" />
             <Arrow color={C.chrome} />
