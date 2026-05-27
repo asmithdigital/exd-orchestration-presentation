@@ -163,7 +163,7 @@ export default function App() {
         <Section>
           <SectionHead number="2" title="The Slack bot" subtitle="A standalone application — anyone can query the entire design ecosystem from Slack" />
           <Flow>
-            <NodeWithNote nodeProps={{ label: "Bot script", sub: "Node.js with Socket Mode", color: C.slack, bg: C.slackBg, border: C.slackBorder, icon: "{ }" }} note="Anthropic API connected, Figma API connected, GitHub API connected, FigJam API connected — all within the script." />
+            <NodeWithNote nodeProps={{ label: "Bot script", sub: "Node.js with Socket Mode", color: C.slack, bg: C.slackBg, border: C.slackBorder, icon: "{ }" }} linkLabel="Slack Bot Repo" linkUrl="https://github.com/asmithdigital/ux-slack-bot" note="Anthropic API connected, Figma API connected, GitHub API connected, FigJam API connected — all within the script." />
             <Arrow color={C.slack} />
             <NodeWithNote nodeProps={{ label: "Hosted on Render", sub: "Free tier — keeps the bot running", color: C.slack, bg: C.slackBg, border: C.slackBorder, icon: "▲" }} note="Would need to be hosted internally in production." />
             <Arrow color={C.slack} />
